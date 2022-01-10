@@ -1,4 +1,3 @@
-import objectpath
 
 from MagicList import MagicList, Person
 
@@ -8,6 +7,6 @@ def main():
     tt = magic_list[0]
     tt = magic_list[1]
     magic_list[2].age = 5
-    print(tt)
+    print(magic_list[2])
 
 main()
